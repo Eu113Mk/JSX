@@ -1,4 +1,3 @@
-import imageInPublic from "./imageInPublic.jpg";
 import imageInSrc from "./imageInSrc.jpg";
 import MyVideo from "./MyVideo.mp4";
 import './style.css';
@@ -18,13 +17,13 @@ function App() {
 
                 <br />
 
-                <img className="img2" src={imageInPublic} alt="imageInPublic" />
+                <img className="img2" src="imageInPublic.jpg" alt="imageInPublic" />
             </div>
             
             <div>
             <video width="320" height="240" controls="controls"  autoplay="true">
                 
-                <source src={MyVideo.mp4} type="video/mp4" />
+                <source src={MyVideo} type="video/mp4" />
             </video>
             </div> 
       </header>
